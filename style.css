@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+/* !applies box sizing to entire document */
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  /* preferred font for entire site*/
+  font-family: 'Roboto', sans-serif;
+  /* !the following styling centers everything in the middle of the page in both directions */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
